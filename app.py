@@ -10,4 +10,4 @@ class Student(Resource):
 
 api.add_resource(Student, '/student/<string:name>')
 
-app.run(port=80)
+app.run()
